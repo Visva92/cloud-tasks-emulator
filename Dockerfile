@@ -11,7 +11,7 @@ COPY . .
 RUN go build -o emulator .
 
 
-FROM alpine:latest
+FROM alpine:3.18.3
 
 LABEL org.opencontainers.image.source=https://github.com/aertje/cloud-tasks-emulator
 
